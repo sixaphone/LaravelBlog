@@ -11,6 +11,7 @@ How To Install:
     Edit .env file, set dbname, user and pass
     In CLI go to cd /path/to/folder/
     Run Command php artisan migrate
+    In /public delete storage folder
     Run command php artisan storage:link /to enable picture storage
     Add a file called noimage.png for people that do not add images
     Run Command php artisan serve
